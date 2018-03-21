@@ -16,11 +16,8 @@ public class Quadrato {
 		this.lato = lato;
 	}
 
-
-
 	public double calcolaArea() {
 		return this.lato *this.lato;
-
 	}
 
 	public double getPerimetro() {
