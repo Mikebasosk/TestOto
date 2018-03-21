@@ -5,4 +5,6 @@ public class Triangolo {
 	/**
 	 * 	Classe da impostare di Davide
 	 */
+	
+	
 }
