@@ -1,41 +1,30 @@
 package plm.oto.Test;
 
 public class Quadrato {
-	private int lato;
-	private int area;
-	private int perimetro;
+	private double lato;
 
-	public int getLato() {
+	public double getLato() {
 		return lato;
 	}
 
-	public void setLato(int lato) {
+	public void setLato(double lato) {
 		this.lato = lato;
 	}
 
-	public Quadrato(int lato) {
+	public Quadrato(double lato) {
 		super();
 		this.lato = lato;
 	}
 
-	public int getArea() {
-		return area;
-	}
 
-	public void calcolaArea() {
-		this.area= this.lato *this.lato;
+
+	public double calcolaArea() {
+		return this.lato *this.lato;
 
 	}
 
-	public int getPerimetro() {
-		return perimetro;
+	public double getPerimetro() {
+		return this.lato*4;
 	}
-
-	public void calcolaPerimetro() {
-		this.perimetro = this.lato *4;
-	}
-
-
-
 
 }
